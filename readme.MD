@@ -3,6 +3,7 @@ Setup Working Environment
 Install scoop from www.scoop.sh
 
 Install allure commandline by running the following command:
+
 scoop install allure
 
 git clone
