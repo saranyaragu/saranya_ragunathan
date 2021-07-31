@@ -1,4 +1,5 @@
 Setup Working Environment
+
 Install scoop from www.scoop.sh
 
 Install allure commandline by running the following command:
@@ -28,6 +29,7 @@ pytest Tests/test_04.py --alluredir=TestReports/test_case_04 --browser <firefox/
 if no browser was selected then chrome will be used.
 
 Parallel execution using xdist:
+
 pytest Tests/test_02.py -n 5 --alluredir=TestReports/test_case_02 --browser <firefox/remote/chrome_headless>
 
 Run according to tags:
