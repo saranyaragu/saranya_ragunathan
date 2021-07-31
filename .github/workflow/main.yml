@@ -1,0 +1,27 @@
+name: Jupiter Toys assignment using Pytest.
+
+on:
+  push:
+    branches: [main]	
+  pull_request:
+    branches: [main]	
+
+jobs:
+  selenium_tests:
+
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      # Runs single command using shell
+      - name: Run a one-line script
+	      run: sh ./initialsetup.sh
+         echo Nothing to see in the multi-line script	
+     
+      # Runs a set of commands using shell
+      - name: Run a multi-line script
+	      run:
+         echo Nothing to see in the multi-line script		
+         echo Here's what's in the folder	
+	       ls -a 	
