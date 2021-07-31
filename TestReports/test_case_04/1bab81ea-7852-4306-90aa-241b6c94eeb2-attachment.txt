@@ -1,0 +1,17 @@
+[32mINFO    [0m root:conftest.py:66 Run started at:2021-07-31 18:33:13.841368
+[32mINFO    [0m root:HomePage.py:43 Page title is Jupiter Toys
+[32mINFO    [0m root:HomePage.py:45  correct jupiter toys is displayed
+[32mINFO    [0m root:ShopPage.py:157 Shop button is clicked from Home Page
+[32mINFO    [0m root:ShopPage.py:205 Cart is empty before adding toys
+[32mINFO    [0m root:ShopPage.py:219  2 Stuffed frog, 5 Fluffy bunny, 3 Valentine Bear is added in the cart
+[32mINFO    [0m root:CartPage.py:178 Cart link is highlighted thus cart page is displayed
+[32mINFO    [0m root:CartPage.py:223 Price displayed in cart page is same as the price in the shop page
+[32mINFO    [0m root:CartPage.py:224 Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}
+[32mINFO    [0m root:CartPage.py:223 Price displayed in cart page is same as the price in the shop page
+[32mINFO    [0m root:CartPage.py:224 Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}
+[32mINFO    [0m root:CartPage.py:223 Price displayed in cart page is same as the price in the shop page
+[32mINFO    [0m root:CartPage.py:224 Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}
+[32mINFO    [0m root:CartPage.py:231 Total amount 116.9
+[32mINFO    [0m root:CartPage.py:280 total sub 116.9
+[32mINFO    [0m root:CartPage.py:292 each product’s sub total = product price * quantity. Subtotal is [21.98, 49.95, 44.97] and product price*quantity value is [21.98, 49.95, 44.97]
+[32mINFO    [0m root:CartPage.py:300 Total amount in Cart page is 116.9, and sum of sum total is 116.9 so total = sum(sub totals)

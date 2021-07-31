@@ -1,0 +1,46 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment, configfile: pytest.ini
+plugins: allure-pytest-2.9.43
+collected 1 item
+
+Tests/test_03.py::test_shop_page_items[tc_001-Funny Cow-2.0-Fluffy Bunny-1.0] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 17:33:08 [    INFO] Run started at:2021-07-31 17:33:08.399662:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 17:33:11 [    INFO] Page title is Jupiter Toys:43)
+2021 -07 -31 17:33:11 [    INFO]  correct jupiter toys is displayed:45)
+2021 -07 -31 17:33:11 [    INFO] Shop button is clicked from Home Page:157)
+2021 -07 -31 17:33:11 [    INFO] Cart is empty before adding toys:166)
+2021 -07 -31 17:33:22 [    INFO]  2 funny cow is added in the cart:176)
+2021 -07 -31 17:33:22 [    INFO] Cart number before selecting the bunny toys is: 2:185)
+2021 -07 -31 17:33:27 [    INFO] Fluffy bunny buy option is selected:189)
+2021 -07 -31 17:33:27 [    INFO]  1 fluffy bunny is added in the cart:195)
+2021 -07 -31 17:33:27 [    INFO] Cart link is highlighted thus cart page is displayed:306)
+2021 -07 -31 17:33:28 [    INFO] Both the items 'funny cow & fluffy bunny' are added in the cart:320)
+PASSED                                                                   [100%]
+
+============================= 1 passed in 25.96s ==============================
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment, configfile: pytest.ini
+plugins: allure-pytest-2.9.43
+collected 1 item
+
+Tests/test_03.py::test_shop_page_items[tc_001-Funny Cow-2.0-Fluffy Bunny-1.0] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 17:42:31 [    INFO] Run started at:2021-07-31 17:42:31.921164:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 17:42:34 [    INFO] Page title is Jupiter Toys:43)
+2021 -07 -31 17:42:34 [    INFO]  correct jupiter toys is displayed:45)
+2021 -07 -31 17:42:34 [    INFO] Shop button is clicked from Home Page:157)
+2021 -07 -31 17:42:34 [    INFO] Cart is empty before adding toys:166)
+2021 -07 -31 17:42:45 [    INFO]  2 funny cow is added in the cart:176)
+2021 -07 -31 17:42:45 [    INFO] Cart number before selecting the bunny toys is: 2:185)
+2021 -07 -31 17:42:50 [    INFO] Fluffy bunny buy option is selected:189)
+2021 -07 -31 17:42:50 [    INFO]  1 fluffy bunny is added in the cart:195)
+2021 -07 -31 17:42:51 [    INFO] Cart link is highlighted thus cart page is displayed:306)
+2021 -07 -31 17:42:51 [    INFO] Both the items 'funny cow & fluffy bunny' are added in the cart:320)
+PASSED                                                                   [100%]
+
+============================= 1 passed in 24.57s ==============================

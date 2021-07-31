@@ -1,0 +1,11 @@
+[32mINFO    [0m root:conftest.py:67 Run started at:2021-07-31 18:26:07.637316
+[32mINFO    [0m root:HomePage.py:43 Page title is Jupiter Toys
+[32mINFO    [0m root:HomePage.py:45  correct jupiter toys is displayed
+[32mINFO    [0m root:ShopPage.py:157 Shop button is clicked from Home Page
+[32mINFO    [0m root:ShopPage.py:166 Cart is empty before adding toys
+[32mINFO    [0m root:ShopPage.py:176  2 funny cow is added in the cart
+[32mINFO    [0m root:ShopPage.py:185 Cart number before selecting the bunny toys is: 2
+[32mINFO    [0m root:ShopPage.py:189 Fluffy bunny buy option is selected
+[32mINFO    [0m root:ShopPage.py:195  1 fluffy bunny is added in the cart
+[32mINFO    [0m root:CartPage.py:306 Cart link is highlighted thus cart page is displayed
+[32mINFO    [0m root:CartPage.py:320 Both the items 'funny cow & fluffy bunny' are added in the cart

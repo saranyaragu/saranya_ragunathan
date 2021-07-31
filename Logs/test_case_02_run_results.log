@@ -1,0 +1,127 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1 -- c:\users\sara\pycharmprojects\planitjupitertoysassignment\venv\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment, configfile: pytest.ini
+plugins: allure-pytest-2.9.43
+collecting ... collected 5 items
+
+Tests/Test_02/test_02.py::test_contact_details_submission_check[tc_001-testA-test-test@test.com-212345678.0-testing pass] 
+------------------------------- live log setup --------------------------------
+2021 -07 -29 21:34:18 [    INFO] Run started at:2021-07-29 21:34:18.895782:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -29 21:34:22 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -29 21:34:22 [    INFO] Contact Page is displayed:126)
+2021 -07 -29 21:34:22 [    INFO] Forename 'testA' is entered:171)
+2021 -07 -29 21:34:22 [    INFO] Email 'test@test.com' is entered:175)
+2021 -07 -29 21:34:23 [    INFO] Message 'testing pass' is entered:179)
+2021 -07 -29 21:34:28 [    INFO] Successful submission message is displayed:226)
+PASSED
+Tests/Test_02/test_02.py::test_contact_details_submission_check[tc_002-testB-test-test@test.com-212345678.0-testing pass] 
+------------------------------- live log setup --------------------------------
+2021 -07 -29 21:34:32 [    INFO] Run started at:2021-07-29 21:34:32.467014:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -29 21:34:35 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -29 21:34:35 [    INFO] Contact Page is displayed:126)
+2021 -07 -29 21:34:36 [    INFO] Forename 'testB' is entered:171)
+2021 -07 -29 21:34:36 [    INFO] Email 'test@test.com' is entered:175)
+2021 -07 -29 21:34:36 [    INFO] Message 'testing pass' is entered:179)
+2021 -07 -29 21:34:41 [    INFO] Successful submission message is displayed:226)
+PASSED
+Tests/Test_02/test_02.py::test_contact_details_submission_check[tc_003-testC-test-test@test.com-212345678.0-testing pass] 
+------------------------------- live log setup --------------------------------
+2021 -07 -29 21:34:45 [    INFO] Run started at:2021-07-29 21:34:45.069463:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -29 21:34:49 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -29 21:34:49 [    INFO] Contact Page is displayed:126)
+2021 -07 -29 21:34:49 [    INFO] Forename 'testC' is entered:171)
+2021 -07 -29 21:34:49 [    INFO] Email 'test@test.com' is entered:175)
+2021 -07 -29 21:34:49 [    INFO] Message 'testing pass' is entered:179)
+2021 -07 -29 21:34:54 [    INFO] Successful submission message is displayed:226)
+PASSED
+Tests/Test_02/test_02.py::test_contact_details_submission_check[tc_004-testD-test-test@test.com-212345678.0-testing pass] 
+------------------------------- live log setup --------------------------------
+2021 -07 -29 21:34:58 [    INFO] Run started at:2021-07-29 21:34:58.712080:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -29 21:35:02 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -29 21:35:02 [    INFO] Contact Page is displayed:126)
+2021 -07 -29 21:35:02 [    INFO] Forename 'testD' is entered:171)
+2021 -07 -29 21:35:02 [    INFO] Email 'test@test.com' is entered:175)
+2021 -07 -29 21:35:02 [    INFO] Message 'testing pass' is entered:179)
+2021 -07 -29 21:35:08 [    INFO] Successful submission message is displayed:226)
+PASSED
+Tests/Test_02/test_02.py::test_contact_details_submission_check[tc_005-testE-test-test@test.com-212345678.0-testing pass] 
+------------------------------- live log setup --------------------------------
+2021 -07 -29 21:35:12 [    INFO] Run started at:2021-07-29 21:35:12.292671:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -29 21:35:16 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -29 21:35:16 [    INFO] Contact Page is displayed:126)
+2021 -07 -29 21:35:16 [    INFO] Forename 'testE' is entered:171)
+2021 -07 -29 21:35:16 [    INFO] Email 'test@test.com' is entered:175)
+2021 -07 -29 21:35:16 [    INFO] Message 'testing pass' is entered:179)
+2021 -07 -29 21:35:18 [    INFO] Successful submission message is displayed:226)
+PASSED
+
+======================== 5 passed in 64.72s (0:01:04) =========================
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment, configfile: pytest.ini
+plugins: allure-pytest-2.9.43
+collected 5 items
+
+Tests/test_02.py::test_contact_details_submission_check[tc_001-testA-test-test@test.com-212345678.0-testing pass] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 17:40:44 [    INFO] Run started at:2021-07-31 17:40:44.042916:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 17:40:47 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -31 17:40:47 [    INFO] Contact Page is displayed:126)
+2021 -07 -31 17:40:47 [    INFO] Forename 'testA' is entered:172)
+2021 -07 -31 17:40:47 [    INFO] Email 'test@test.com' is entered:176)
+2021 -07 -31 17:40:47 [    INFO] Message 'testing pass' is entered:180)
+2021 -07 -31 17:40:53 [    INFO] Successful submission message is displayed:227)
+PASSED                                                                   [ 20%]
+Tests/test_02.py::test_contact_details_submission_check[tc_002-testB-test-test@test.com-212345678.0-testing pass] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 17:40:57 [    INFO] Run started at:2021-07-31 17:40:57.333089:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 17:41:00 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -31 17:41:00 [    INFO] Contact Page is displayed:126)
+2021 -07 -31 17:41:00 [    INFO] Forename 'testB' is entered:172)
+2021 -07 -31 17:41:00 [    INFO] Email 'test@test.com' is entered:176)
+2021 -07 -31 17:41:00 [    INFO] Message 'testing pass' is entered:180)
+2021 -07 -31 17:41:07 [    INFO] Successful submission message is displayed:227)
+PASSED                                                                   [ 40%]
+Tests/test_02.py::test_contact_details_submission_check[tc_003-testC-test-test@test.com-212345678.0-testing pass] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 17:41:10 [    INFO] Run started at:2021-07-31 17:41:10.801345:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 17:41:14 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -31 17:41:14 [    INFO] Contact Page is displayed:126)
+2021 -07 -31 17:41:14 [    INFO] Forename 'testC' is entered:172)
+2021 -07 -31 17:41:14 [    INFO] Email 'test@test.com' is entered:176)
+2021 -07 -31 17:41:14 [    INFO] Message 'testing pass' is entered:180)
+2021 -07 -31 17:41:17 [    INFO] Successful submission message is displayed:227)
+PASSED                                                                   [ 60%]
+Tests/test_02.py::test_contact_details_submission_check[tc_004-testD-test-test@test.com-212345678.0-testing pass] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 17:41:20 [    INFO] Run started at:2021-07-31 17:41:20.973074:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 17:41:23 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -31 17:41:23 [    INFO] Contact Page is displayed:126)
+2021 -07 -31 17:41:24 [    INFO] Forename 'testD' is entered:172)
+2021 -07 -31 17:41:24 [    INFO] Email 'test@test.com' is entered:176)
+2021 -07 -31 17:41:24 [    INFO] Message 'testing pass' is entered:180)
+2021 -07 -31 17:41:26 [    INFO] Successful submission message is displayed:227)
+PASSED                                                                   [ 80%]
+Tests/test_02.py::test_contact_details_submission_check[tc_005-testE-test-test@test.com-212345678.0-testing pass] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 17:41:30 [    INFO] Run started at:2021-07-31 17:41:30.057041:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 17:41:33 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -31 17:41:33 [    INFO] Contact Page is displayed:126)
+2021 -07 -31 17:41:33 [    INFO] Forename 'testE' is entered:172)
+2021 -07 -31 17:41:33 [    INFO] Email 'test@test.com' is entered:176)
+2021 -07 -31 17:41:33 [    INFO] Message 'testing pass' is entered:180)
+2021 -07 -31 17:41:36 [    INFO] Successful submission message is displayed:227)
+PASSED                                                                   [100%]
+
+============================= 5 passed in 57.82s ==============================

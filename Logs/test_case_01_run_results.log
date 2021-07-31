@@ -1,0 +1,102 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1 -- c:\users\sara\pycharmprojects\planitjupitertoysassignment\venv\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment, configfile: pytest.ini
+plugins: allure-pytest-2.9.43
+collecting ... collected 1 item
+
+Tests/Test_01/test_01.py::test_contact_page_errors[tc_001-testA-test-test@test.com-212345678.0-testing pass errors are gone] 
+------------------------------- live log setup --------------------------------
+2021 -07 -29 21:22:08 [    INFO] Run started at:2021-07-29 21:22:08.643041:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -29 21:22:11 [    INFO] Page title is Jupiter Toys:43)
+2021 -07 -29 21:22:11 [    INFO]  correct jupiter toys is displayed:45)
+2021 -07 -29 21:22:11 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -29 21:22:11 [    INFO] Contact Page is displayed:126)
+2021 -07 -29 21:22:11 [    INFO] Submit button is clicked without key in any data:131)
+2021 -07 -29 21:22:12 [    INFO] Correct header error message 'We welcome your feedback - but we won't get it unless you complete the form correctly.' is displayed:137)
+2021 -07 -29 21:22:12 [    INFO] Forename missing error message: 'Forename is required' is displayed:145)
+2021 -07 -29 21:22:12 [    INFO] Email is required:152)
+2021 -07 -29 21:22:12 [    INFO] Email missing error message: 'Email is required' is displayed:154)
+2021 -07 -29 21:22:12 [    INFO] Message missing error message: 'Message is required' is displayed:162)
+2021 -07 -29 21:22:12 [    INFO] Forename 'testA' is entered:171)
+2021 -07 -29 21:22:13 [    INFO] Email 'test@test.com' is entered:175)
+2021 -07 -29 21:22:13 [    INFO] Message 'testing pass errors are gone' is entered:179)
+2021 -07 -29 21:22:13 [    INFO] Header error message is gone after key in mandatory fields :188)
+2021 -07 -29 21:22:23 [    INFO]  Forename error message is gone:198)
+2021 -07 -29 21:22:23 [    INFO]  Email error message is gone:206)
+2021 -07 -29 21:22:33 [    INFO]  Message field error is gone:214)
+PASSED
+
+============================== warnings summary ===============================
+Pages\ContactPage.py:125
+  C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment\Pages\ContactPage.py:125: SyntaxWarning: assertion is always true, perhaps remove parentheses?
+    assert(header_text, actual_text)
+
+Pages\ContactPage.py:136
+  C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment\Pages\ContactPage.py:136: SyntaxWarning: assertion is always true, perhaps remove parentheses?
+    assert(header_error_text, expected_error_text)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================= 1 passed, 2 warnings in 29.55s ========================
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1 -- c:\users\sara\pycharmprojects\planitjupitertoysassignment\venv\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment, configfile: pytest.ini
+plugins: allure-pytest-2.9.43
+collecting ... collected 1 item
+
+Tests/Test_01/test_01.py::test_contact_page_errors[tc_001-testA-test-test@test.com-212345678.0-testing pass errors are gone] 
+------------------------------- live log setup --------------------------------
+2021 -07 -29 21:24:02 [    INFO] Run started at:2021-07-29 21:24:02.945302:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -29 21:24:05 [    INFO] Page title is Jupiter Toys:43)
+2021 -07 -29 21:24:05 [    INFO]  correct jupiter toys is displayed:45)
+2021 -07 -29 21:24:05 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -29 21:24:05 [    INFO] Contact Page is displayed:126)
+2021 -07 -29 21:24:06 [    INFO] Submit button is clicked without key in any data:131)
+2021 -07 -29 21:24:06 [    INFO] Correct header error message 'We welcome your feedback - but we won't get it unless you complete the form correctly.' is displayed:137)
+2021 -07 -29 21:24:06 [    INFO] Forename missing error message: 'Forename is required' is displayed:145)
+2021 -07 -29 21:24:06 [    INFO] Email is required:152)
+2021 -07 -29 21:24:06 [    INFO] Email missing error message: 'Email is required' is displayed:154)
+2021 -07 -29 21:24:06 [    INFO] Message missing error message: 'Message is required' is displayed:162)
+2021 -07 -29 21:24:06 [    INFO] Forename 'testA' is entered:171)
+2021 -07 -29 21:24:06 [    INFO] Email 'test@test.com' is entered:175)
+2021 -07 -29 21:24:07 [    INFO] Message 'testing pass errors are gone' is entered:179)
+2021 -07 -29 21:24:07 [    INFO] Header error message is gone after key in mandatory fields :188)
+2021 -07 -29 21:24:17 [    INFO]  Forename error message is gone:198)
+2021 -07 -29 21:24:17 [    INFO]  Email error message is gone:206)
+2021 -07 -29 21:24:27 [    INFO]  Message field error is gone:214)
+PASSED
+
+============================= 1 passed in 29.19s ==============================
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment, configfile: pytest.ini
+plugins: allure-pytest-2.9.43
+collected 1 item
+
+Tests/test_01.py::test_contact_page_errors[tc_001-testA-test-test@test.com-212345678.0-testing pass errors are gone] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 17:39:18 [    INFO] Run started at:2021-07-31 17:39:18.215025:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 17:39:21 [    INFO] Page title is Jupiter Toys:43)
+2021 -07 -31 17:39:21 [    INFO]  correct jupiter toys is displayed:45)
+2021 -07 -31 17:39:22 [    INFO] Header text displayed in contact page is We welcome your feedback:123)
+2021 -07 -31 17:39:22 [    INFO] Contact Page is displayed:126)
+2021 -07 -31 17:39:22 [    INFO] Submit button is clicked without key in any data:131)
+2021 -07 -31 17:39:22 [    INFO] Correct header error message 'We welcome your feedback - but we won't get it unless you complete the form correctly.' is displayed:137)
+2021 -07 -31 17:39:22 [    INFO] Forename missing error message: 'Forename is required' is displayed:145)
+2021 -07 -31 17:39:22 [    INFO] Email is required:152)
+2021 -07 -31 17:39:22 [    INFO] Email missing error message: 'Email is required' is displayed:154)
+2021 -07 -31 17:39:22 [    INFO] Message missing error message: 'Message is required' is displayed:162)
+2021 -07 -31 17:39:23 [    INFO] Forename 'testA' is entered:172)
+2021 -07 -31 17:39:23 [    INFO] Email 'test@test.com' is entered:176)
+2021 -07 -31 17:39:23 [    INFO] Message 'testing pass errors are gone' is entered:180)
+2021 -07 -31 17:39:23 [    INFO] Header error message is gone after key in mandatory fields :189)
+2021 -07 -31 17:39:34 [    INFO]  Forename error message is gone:199)
+2021 -07 -31 17:39:34 [    INFO]  Email error message is gone:207)
+2021 -07 -31 17:39:44 [    INFO]  Message field error is gone:215)
+PASSED                                                                   [100%]
+
+============================= 1 passed in 32.22s ==============================

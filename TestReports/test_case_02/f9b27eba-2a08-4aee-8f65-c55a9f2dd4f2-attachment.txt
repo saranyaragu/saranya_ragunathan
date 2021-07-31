@@ -1,0 +1,7 @@
+[32mINFO    [0m root:conftest.py:67 Run started at:2021-07-31 18:18:51.389528
+[32mINFO    [0m root:ContactPage.py:123 Header text displayed in contact page is We welcome your feedback
+[32mINFO    [0m root:ContactPage.py:126 Contact Page is displayed
+[32mINFO    [0m root:ContactPage.py:172 Forename 'testE' is entered
+[32mINFO    [0m root:ContactPage.py:176 Email 'test@test.com' is entered
+[32mINFO    [0m root:ContactPage.py:180 Message 'testing pass' is entered
+[32mINFO    [0m root:ContactPage.py:227 Successful submission message is displayed

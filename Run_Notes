@@ -1,0 +1,60 @@
+*******************************************************************************************************************************************************************************************
+														JUPITER TOYS PLANIT ASSIGNMENT SCRIPTS NOTES
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Framework Structure:
+
+Scripts are designed based on Selenium - Pytest framework using Python language
+Design Pattern		Page Object Model (POM)
+Test Data			Data Driven Approach using excel/csv
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Jupiter Toys scripts can handle the below functionality:
+
+Contact Page 		Mandatory field error check
+					Contact form submission
+
+Shop Page			Shop toys in shop page
+					validate items in cart table
+					validate items price
+******************************************************************************************************************************************************************************************
+
+JUPITER TOYS PLANIT ASSIGNMENT SCRIPTS - Important Folders
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PAGES
+	 |   - BasePage 		- This folder containd the common methods for common selenium actions like click, send_keys, gettext, asser text
+							- Any further functionality implementations can use these accordingly
+		
+		 - HomePage			- This folder contains all the page objects/Methods for Home Page related functions
+		 
+		 - ContactPage		- This folder contains all the page objects/Methods for Contact Page related functions
+		 
+		 - ShopPage			- This folder contains all the page objects/Methods for Shop Page related functions
+		 
+
+TESTDATA
+		
+		- Jupiter_toys_test_data_001   - This csv file contains the test data to execute TC-001 functionality
+		- Jupiter_toys_test_data_002   - This csv file contains the test data to execute TC-002 functionality
+		- Jupiter_toys_test_data_003   - This csv file contains the test data to execute TC-003 functionality
+		- Jupiter_toys_test_data_004   - This csv file contains the test data to execute TC-003 functionality
+		
+		
+TESTS
+
+		- Test_01		- This folder contains Single test file to run the Homepage & contact page related functions for TC001
+		- Test_02		- This folder contains Single test file to run the Homepage & contact page related functions for TC002
+		- Test_03		- This folder contains Single test file to run the Homepage & shop page related functions for TC003
+		- Test_04		- This folder contains Single test file to run the Homepage & shop page related functions for TC004
+		
+TEST RESULTS
+
+	    - Test RESULTS		- This folder stored the allure generated reports after every test run	
+							  command --allure server <<test results path>> will store the run results in xml format under this folder
+
+***************************************************************************************************************************************************************************************
+
+
+
+		
+		

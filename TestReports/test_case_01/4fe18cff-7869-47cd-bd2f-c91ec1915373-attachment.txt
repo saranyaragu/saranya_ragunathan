@@ -1,0 +1,18 @@
+[32mINFO    [0m root:conftest.py:67 Run started at:2021-07-31 18:16:51.036179
+[32mINFO    [0m root:HomePage.py:43 Page title is Jupiter Toys
+[32mINFO    [0m root:HomePage.py:45  correct jupiter toys is displayed
+[32mINFO    [0m root:ContactPage.py:123 Header text displayed in contact page is We welcome your feedback
+[32mINFO    [0m root:ContactPage.py:126 Contact Page is displayed
+[32mINFO    [0m root:ContactPage.py:131 Submit button is clicked without key in any data
+[32mINFO    [0m root:ContactPage.py:137 Correct header error message 'We welcome your feedback - but we won't get it unless you complete the form correctly.' is displayed
+[32mINFO    [0m root:ContactPage.py:145 Forename missing error message: 'Forename is required' is displayed
+[32mINFO    [0m root:ContactPage.py:152 Email is required
+[32mINFO    [0m root:ContactPage.py:154 Email missing error message: 'Email is required' is displayed
+[32mINFO    [0m root:ContactPage.py:162 Message missing error message: 'Message is required' is displayed
+[32mINFO    [0m root:ContactPage.py:172 Forename 'testA' is entered
+[32mINFO    [0m root:ContactPage.py:176 Email 'test@test.com' is entered
+[32mINFO    [0m root:ContactPage.py:180 Message 'testing pass errors are gone' is entered
+[32mINFO    [0m root:ContactPage.py:189 Header error message is gone after key in mandatory fields 
+[32mINFO    [0m root:ContactPage.py:199  Forename error message is gone
+[32mINFO    [0m root:ContactPage.py:207  Email error message is gone
+[32mINFO    [0m root:ContactPage.py:215  Message field error is gone

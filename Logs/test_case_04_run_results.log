@@ -1,0 +1,87 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment, configfile: pytest.ini
+plugins: allure-pytest-2.9.43
+collected 1 item
+
+Tests/test_04.py::test_shop_page_items[tc_001-Stuffed Frog-2.0-Fluffy Bunny-5.0-Valentine Bear-3.0] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 16:43:19 [    INFO] Run started at:2021-07-31 16:43:19.779416:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 16:43:22 [    INFO] Page title is Jupiter Toys:43)
+2021 -07 -31 16:43:22 [    INFO]  correct jupiter toys is displayed:45)
+2021 -07 -31 16:43:22 [    INFO] Shop button is clicked from Home Page:157)
+2021 -07 -31 16:43:22 [    INFO] Cart is empty before adding toys:205)
+2021 -07 -31 16:44:14 [    INFO]  2 Stuffed frog, 5 Fluffy bunny, 3 Valentine Bear is added in the cart:219)
+2021 -07 -31 16:44:15 [    INFO] Cart link is highlighted thus cart page is displayed:178)
+2021 -07 -31 16:44:16 [    INFO] Price displayed in cart page is same as the price in the shop page:223)
+2021 -07 -31 16:44:16 [    INFO] Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}:224)
+2021 -07 -31 16:44:16 [    INFO] Price displayed in cart page is same as the price in the shop page:223)
+2021 -07 -31 16:44:16 [    INFO] Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}:224)
+2021 -07 -31 16:44:16 [    INFO] Price displayed in cart page is same as the price in the shop page:223)
+2021 -07 -31 16:44:16 [    INFO] Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}:224)
+2021 -07 -31 16:44:16 [    INFO] Total amount 116.9:231)
+2021 -07 -31 16:44:16 [    INFO] total sub 116.9:280)
+2021 -07 -31 16:44:16 [    INFO] each product’s sub total = product price * quantity. Subtotal is [21.98, 49.95, 44.97] and product price*quantity value is [21.98, 49.95, 44.97]:292)
+2021 -07 -31 16:44:16 [    INFO] Total amount in Cart page is 116.9, and sum of sum total is 116.9 so total = sum(sub totals):300)
+PASSED                                                                   [100%]
+
+======================== 1 passed in 61.97s (0:01:01) =========================
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment, configfile: pytest.ini
+plugins: allure-pytest-2.9.43
+collected 1 item
+
+Tests/test_04.py::test_shop_page_items[tc_001-Stuffed Frog-2.0-Fluffy Bunny-5.0-Valentine Bear-3.0] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 16:44:35 [    INFO] Run started at:2021-07-31 16:44:35.790439:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 16:44:38 [    INFO] Page title is Jupiter Toys:43)
+2021 -07 -31 16:44:38 [    INFO]  correct jupiter toys is displayed:45)
+2021 -07 -31 16:44:38 [    INFO] Shop button is clicked from Home Page:157)
+2021 -07 -31 16:44:38 [    INFO] Cart is empty before adding toys:205)
+2021 -07 -31 16:45:30 [    INFO]  2 Stuffed frog, 5 Fluffy bunny, 3 Valentine Bear is added in the cart:219)
+2021 -07 -31 16:45:31 [    INFO] Cart link is highlighted thus cart page is displayed:178)
+2021 -07 -31 16:45:32 [    INFO] Price displayed in cart page is same as the price in the shop page:223)
+2021 -07 -31 16:45:32 [    INFO] Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}:224)
+2021 -07 -31 16:45:32 [    INFO] Price displayed in cart page is same as the price in the shop page:223)
+2021 -07 -31 16:45:32 [    INFO] Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}:224)
+2021 -07 -31 16:45:32 [    INFO] Price displayed in cart page is same as the price in the shop page:223)
+2021 -07 -31 16:45:32 [    INFO] Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}:224)
+2021 -07 -31 16:45:32 [    INFO] Total amount 116.9:231)
+2021 -07 -31 16:45:33 [    INFO] total sub 116.9:280)
+2021 -07 -31 16:45:33 [    INFO] each product’s sub total = product price * quantity. Subtotal is [21.98, 49.95, 44.97] and product price*quantity value is [21.98, 49.95, 44.97]:292)
+2021 -07 -31 16:45:33 [    INFO] Total amount in Cart page is 116.9, and sum of sum total is 116.9 so total = sum(sub totals):300)
+PASSED                                                                   [100%]
+
+======================== 1 passed in 62.16s (0:01:02) =========================
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: C:\Users\Sara\PycharmProjects\PlanITJupiterToysAssignment, configfile: pytest.ini
+plugins: allure-pytest-2.9.43
+collected 1 item
+
+Tests/test_04.py::test_shop_page_items[tc_001-Stuffed Frog-2.0-Fluffy Bunny-5.0-Valentine Bear-3.0] 
+------------------------------- live log setup --------------------------------
+2021 -07 -31 17:44:16 [    INFO] Run started at:2021-07-31 17:44:16.249323:67)
+-------------------------------- live log call --------------------------------
+2021 -07 -31 17:44:19 [    INFO] Page title is Jupiter Toys:43)
+2021 -07 -31 17:44:19 [    INFO]  correct jupiter toys is displayed:45)
+2021 -07 -31 17:44:19 [    INFO] Shop button is clicked from Home Page:157)
+2021 -07 -31 17:44:19 [    INFO] Cart is empty before adding toys:205)
+2021 -07 -31 17:45:10 [    INFO]  2 Stuffed frog, 5 Fluffy bunny, 3 Valentine Bear is added in the cart:219)
+2021 -07 -31 17:45:11 [    INFO] Cart link is highlighted thus cart page is displayed:178)
+2021 -07 -31 17:45:12 [    INFO] Price displayed in cart page is same as the price in the shop page:223)
+2021 -07 -31 17:45:12 [    INFO] Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}:224)
+2021 -07 -31 17:45:12 [    INFO] Price displayed in cart page is same as the price in the shop page:223)
+2021 -07 -31 17:45:12 [    INFO] Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}:224)
+2021 -07 -31 17:45:12 [    INFO] Price displayed in cart page is same as the price in the shop page:223)
+2021 -07 -31 17:45:12 [    INFO] Price displayed in cart page is : {'Stuffed Frog': '$10.99', 'Fluffy Bunny': '$9.99', 'Valentine Bear': '$14.99'}:224)
+2021 -07 -31 17:45:12 [    INFO] Total amount 116.9:231)
+2021 -07 -31 17:45:12 [    INFO] total sub 116.9:280)
+2021 -07 -31 17:45:12 [    INFO] each product’s sub total = product price * quantity. Subtotal is [21.98, 49.95, 44.97] and product price*quantity value is [21.98, 49.95, 44.97]:292)
+2021 -07 -31 17:45:12 [    INFO] Total amount in Cart page is 116.9, and sum of sum total is 116.9 so total = sum(sub totals):300)
+PASSED                                                                   [100%]
+
+======================== 1 passed in 60.75s (0:01:00) =========================

@@ -1,0 +1,6 @@
+{
+  "browser": "Chrome",
+  "headless": "N",
+  "url": "https://jupiter.cloud.planittesting.com/",
+  "wait_time": "10"
+}
