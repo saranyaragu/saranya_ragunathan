@@ -24,9 +24,13 @@ pip install -r ./requirements.txt
 Run Tests
 
 pytest Tests/test_01.py --alluredir=TestReports/test_case_01 --browser <firefox/remote/chrome_headless>
+
 pytest Tests/test_02.py --alluredir=TestReports/test_case_02 --browser <firefox/remote/chrome_headless>
+
 pytest Tests/test_03.py --alluredir=TestReports/test_case_03 --browser <firefox/remote/chrome_headless>
+
 pytest Tests/test_04.py --alluredir=TestReports/test_case_04 --browser <firefox/remote/chrome_headless>
+
 if no browser was selected then chrome will be used.
 
 Parallel execution using xdist:
